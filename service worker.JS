@@ -5,7 +5,6 @@ if (self.skipWaiting) { self.skipWaiting(); }
     caches.open('cache01').then(function(cache) {
       return cache.addAll([
         './',
-  'https://animezht.blogspot.com/',
   'https://use.fontawesome.com/releases/v5.10.2/css/all.css',
   '//cdn.jsdelivr.net/gh/zero20659/danielhost@1/labs/spinner.min.css'
  'https://www.blogger.com/static/v1/widgets/2488788848-widgets.js',
@@ -34,5 +33,5 @@ self.addEventListener('fetch', function(event) {
     });
 	caches.keys().then(function(cacheKeys) {
 	// Muestra en la consola la cache instalada 
-	console.log('Versión SW: '+cacheKeys);
+	console.log('VersiÃ³n SW: '+cacheKeys);
 });  
