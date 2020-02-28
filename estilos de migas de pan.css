@@ -1,0 +1,39 @@
+/*!
+* Includable: BreadCrumbs v1.0.1
+* by zkreations
+*/.breadcrumb,.breadcrumb li{margin:0;padding:0;list-style-type:none}.breadcrumb{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:1em;font-size:14px;overflow:hidden}.breadcrumb__link{display:block;height:100%;vertical-align:middle;line-height:1.5em;position:relative;padding-bottom:.5em;padding-left:2.6em;-webkit-transition:background .2s,color .2s;transition:background .2s,color .2s;padding-top:.5em}.breadcrumb__link::after,.breadcrumb__link::before{border-top:40px solid transparent;border-bottom:40px solid transparent;border-left:20px solid;position:absolute;margin-top:-40px}.breadcrumb__item:first-child .breadcrumb__link{border-radius:4px 0 0 4px;padding-left:1em}.breadcrumb__link::after,.breadcrumb__link::before{content:" ";display:block;width:0;height:0;top:50%}.breadcrumb__link::after{z-index:2;left:calc(100% - 1px);-webkit-transition:border .2s;transition:border .2s}.breadcrumb__link::before{z-index:1;left:calc(100% + 4px)}.breadcrumb__name svg{width:18px;display:block}.breadcrumb__name{display:inline-block;text-transform:capitalize;vertical-align:middle}
+/*
+=> Personalizacion
+*/
+/* Primero elemento (Home)
+----------------------------------------------*/
+.breadcrumb__name svg {
+fill: #fff; /*Color del icono*/
+}
+.breadcrumb__item:first-child .breadcrumb__link {
+background-color: #23a6b3; /*Fondo del primer elemento*/
+}
+.breadcrumb__item:first-child .breadcrumb__link::after {
+border-left-color: #23a6b3; /*Color del indicador*/
+}
+/* Elementos restantes
+----------------------------------------------*/
+.breadcrumb__link {
+background: #f2f2f2; /*Color de fondo*/
+color: #222; /*Color de textos*/
+}
+.breadcrumb__link::after {
+border-left-color: #f2f2f2 /*Color de los indicadores*/
+}
+.breadcrumb__link:hover {
+background-color: #23a6b3; /*Color de fondo (Hover) */
+color: #fff; /*Color de textos (Hover) */
+}
+.breadcrumb__link:hover::after {
+border-left-color: #23a6b3; /*Color de las indicadores (Hover) */
+}
+/* Separacion
+----------------------------------------------*/
+.breadcrumb__link::before {
+border-left-color: #ffffff; /*Color de las separaciones*/
+}

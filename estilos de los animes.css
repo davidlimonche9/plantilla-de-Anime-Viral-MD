@@ -1,0 +1,24 @@
+/*Animes*/
+.anime-header h2{color:#fff;text-align:center;background:rgba(0,0,0,.7);padding:.3em 0;font-size:18px; margin:0;}
+.Banner { display: block; position: relative;overflow: hidden;width: 100%; height: 50vh;
+padding-bottom: 20%;}
+.Banner img {width: 110%!important; max-width: 110%;height: 50vh; position: absolute; top: initial;
+left: -5%;}
+.filtr {
+width: 100%;
+position: absolute;
+bottom: 0;
+padding-bottom: 20%;
+background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(#151515));
+background: linear-gradient(transparent,#151515);
+}
+.anime-grid-pp{display:grid;grid-gap:1em;grid-template-columns:300px 1fr}
+.anime-sidebar{margin-top:-25vh;z-index:1}
+.anime-sidebar img{border:5px solid #fff;border-radius:5px; width:initial;overflow:hidden;margin-bottom:1em;margin-top: 14vh;}
+.estado-a{background:red;padding:.5em 1em;display:block;border-radius:7px;color:#131313;text-align:center;font-size:18px}
+.estado-b{background:green;padding:.5em 1em;display:block;border-radius:7px;color:white;text-align:center;font-size:18px}
+.anime-content .title-header{margin-top:1.5rem;margin-bottom:1.5rem} .title-header h1,.title-header span{color:#333;margin-bottom:.2em;}.animecard{background:#fff;padding:1em;box-shadow:0 0 30px 0 rgba(0,0,0,.1);margin-bottom:1.5em}.animecard h2{color:#333}.animecard p{color:#666}.mb1{margin-bottom:.7em}.horizontal{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;justify-content:space-between}.left-anime{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;align-items:center}.left-anime img{max-width:120px;border-radius:7px}.left-anime i,.left-anime img{margin-right:.8em}.anime-t-c h3{font-size:15px;font-weight:700}.anime-t-c h5{font-size:12px}
+.visto{display:flex;flex-direction:column-reverse;align-items:center;justify-content:flex-end}
+.visto input[type=checkbox]{width:60px;height:27px;-webkit-appearance:none;background:#c4c4c4;border-radius:50px;outline:0;transition:.5s;position:relative}.visto input[type=checkbox]:checked{background:#1ba8e6}
+.visto input[type=checkbox]:checked~h2>span{display:none
+}.visto input[type=checkbox]::before{content:'';width:27px;height:27px;border-radius:50px;background:#fff;position:absolute;top:0;left:0;transform:scale(1);box-shadow:0 2px 6px rgba(0,0,0,.2);transition:.4s}.visto input:checked[type=checkbox]::before{left:37px}.visto h2{font-size:10px;font-weight:600;color:#333}.separator{display:block;height:1px;background:#f1f1f1;margin:1em 0}
