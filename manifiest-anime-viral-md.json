@@ -1,52 +1,33 @@
 {
   "name": "Anime Viral MD",
   "short_name": "Anime Viral MD",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#fff",
-  "theme_color": "#fff",
-  "icons": [
-    {
-      "src": "icons/icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png"
-    },
-    {
-      "src": "icons/icon-128x128.png",
+  "icons": [{
+    "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:128,h:128,m",
       "sizes": "128x128",
       "type": "image/png"
-    },
-    {
-      "src": "icons/icon-144x144.png",
+    }, {
+      "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:144,h:144,m",
       "sizes": "144x144",
       "type": "image/png"
-    },
-    {
-      "src": "icons/icon-152x152.png",
+    }, {
+      "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:152,h:152,m",
       "sizes": "152x152",
       "type": "image/png"
-    },
-    {
-      "src": "icons/icon-192x192.png",
+    }, {
+      "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:192,h:192,m",
       "sizes": "192x192",
       "type": "image/png"
-    },
-    {
-      "src": "icons/icon-384x384.png",
-      "sizes": "384x384",
+    }, {
+      "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:256,h:256,m",
+      "sizes": "256x256",
       "type": "image/png"
-    },
-    {
-      "src": "icons/icon-512x512.png",
+    }, {
+      "src": "http://img1.wsimg.com/isteam/ip/97ef5147-3768-4b7c-ade9-996aa4e480af/icono-anime-viral-md--removebg-preview.png/:/rs=w:512,h:512,m",
       "sizes": "512x512",
       "type": "image/png"
-    }
-  ],
-  "splash_pages": null
+    }],
+  "start_url": "https://animeviramd.blogspot.com/p/bienvenido-anime-viral-md.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
 }
