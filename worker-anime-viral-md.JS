@@ -4,8 +4,7 @@ if (self.skipWaiting) { self.skipWaiting(); }
   event.waitUntil(
     caches.open('cache01').then(function(cache) {
       return cache.addAll([
-        './',
-  'https://animeviramd.blogspot.com/',
+  'https://animeviramd.blogspot.com/p/bienvenido-anime-viral-md.html',
   'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css',
   'https://cdn.ampproject.org/v0.js',
   'https://rawcdn.githack.com/davidlimonche9/plantilla-de-Anime-Viral-MD/2877e2d126e38f732a806cd40596c993889d516d/whale.min.js',
@@ -36,5 +35,5 @@ self.addEventListener('fetch', function(event) {
     });
 	caches.keys().then(function(cacheKeys) {
 	// Muestra en la consola la cache instalada 
-	console.log('Versión SW: '+cacheKeys);
+	console.log('VersiÃ³n SW: '+cacheKeys);
 });  
