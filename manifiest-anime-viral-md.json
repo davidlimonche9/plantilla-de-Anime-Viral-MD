@@ -3,27 +3,7 @@
   "short_name": "Anime Viral MD",
   "icons": [{
     "src": "https://lh3.googleusercontent.com/-aOzoSXP_-bg/XmbpcrXp1FI/AAAAAAAAA2s/o4OFOCzIgaIjY4VAeIAME1O6vbBwC7-ZgCLcBGAsYHQ/h120/128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    }, {
-      "src": "https://lh3.googleusercontent.com/-7Qo-6-nK-R4/Xmbpc_aAe5I/AAAAAAAAA20/iYX2qvBbzt8ZKuoDpH1QvWpVDTnZIuf2wCLcBGAsYHQ/h120/144x144.png",
-      "sizes": "144x144",
-      "type": "image/png"
-    }, {
-      "src": "https://lh3.googleusercontent.com/-Y3Z6D3KzKgg/Xmbpc0jl-7I/AAAAAAAAA2w/xoYlHteBNCQUnUK2WmwaEoeeSRPyab62wCLcBGAsYHQ/h120/152x152.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    }, {
-      "src": "https://lh3.googleusercontent.com/-w_m4ydygQDY/XmbpdIOmsYI/AAAAAAAAA24/uusqehuHum8rWtlhGzxZQ1vilT5TLRBHACLcBGAsYHQ/h120/192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }, {
-      "src": "https://lh3.googleusercontent.com/-FXvkfFDzbl4/Xmbpd4DagVI/AAAAAAAAA28/H9fl6aw6IbAQoI96WsfHfQYGH2fwy61xwCLcBGAsYHQ/h120/256x256.png",
-      "sizes": "256x256",
-      "type": "image/png"
-    }, {
-      "src": "https://lh3.googleusercontent.com/-vsDxcTaH4bQ/XmbpfD83NEI/AAAAAAAAA3A/TCTPRJMtQ_4tpKRd7lY3urMS7qkEeLWsgCLcBGAsYHQ/h120/512x512.png",
-      "sizes": "512x512",
+      "sizes": "120x120",
       "type": "image/png"
     }],
   "start_url": "https://animeviramd.blogspot.com/p/bienvenido-anime-viral-md.html",
